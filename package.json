@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-exciting-thermostat",
+  "version": "0.0.1",
+  "description": "Thermostat plugin for the Exciting.io heating system",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/exciting-io/homebridge-exciting-thermostat.git"
+  },
+  "bugs": {
+    "url": "http://github.com/exciting-io/homebridge-exciting-thermostat/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:31",
+        "port": 51826,
+        "pin": "111-22-333"
+    },
+
+    "description": "This is an example configuration file using the Exciting.io heating service.",
+
+    "accessories": [
+        {
+            "accessory": "Heating",
+            "name": "House Thermostat",
+            "ip_address": "yourhostname",
+            "username": "yourusername",
+            "password": "yourpassword",
+            "http_method": "POST"
+        }
+    ]
+}
